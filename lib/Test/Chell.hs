@@ -118,6 +118,7 @@ module Test.Chell
 	, testOptionTimeout
 	) where
 
+import           Prelude hiding (pure)
 import qualified Control.Applicative
 import qualified Control.Exception
 import           Control.Exception (Exception)
